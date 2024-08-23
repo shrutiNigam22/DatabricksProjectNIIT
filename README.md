@@ -27,11 +27,16 @@ Gold Layer:
 
 Purpose: Aggregated and enriched data ready for reporting and analytics.
 Processing: Data from the silver layer is aggregated and enriched with additional calculations and metrics. This final layer provides a high-level view of the data, optimized for queries and dashboards.
-<h>Workflow Automation<h>
+
+Workflow Automation
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/1f4c0e88-b482-4cfc-b12e-502e2b336e86">
+
 Trigger: The workflow is automatically triggered when a new file is placed in the landing folder within ADLS Gen2.
 Process: The new file is ingested into the bronze layer, then cleaned and processed into the silver layer, and finally aggregated into the gold layer.
 Storage: Processed data is stored back into ADLS Gen2 in respective folders for bronze, silver, and gold layers.
-<h>Notebooks<h>
+
+
+Notebooks
 <img width="504" alt="image" src="https://github.com/user-attachments/assets/d539ef26-ff65-4014-9f03-394c428a71ee">
 
 To run the project, follow these steps:
