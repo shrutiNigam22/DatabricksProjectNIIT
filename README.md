@@ -1,5 +1,5 @@
-# DatabricksProjectNIIT
-Road Infrastructure and Traffic Analysis Project
+# Road Infrastructure and Traffic Analysis Project
+
 This project implements a data pipeline using the Medallion Architecture, designed to process and analyze data related to road infrastructure and traffic patterns. The project ingests two types of CSV files—Raw_Roads and Road_Traffic—and processes them through bronze, silver, and gold layers. The entire workflow is triggered automatically when new files are placed in a designated landing folder in Azure Data Lake Storage Gen2 (ADLS Gen2).
 
 <h>Project Structure<h>
