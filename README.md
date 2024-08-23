@@ -15,6 +15,13 @@ Road_Traffic CSV Files:
 Description: Contains traffic count data at various locations, including details like count point ID, direction, date, time, region, road name, vehicle types, and traffic volume.
 Business Importance: Valuable for analyzing traffic patterns, identifying congestion hotspots, and making data-driven decisions related to transportation infrastructure and planning.
 
+<img width="909" alt="image" src="https://github.com/user-attachments/assets/bf1ca609-ed34-4483-9c28-36eca792f47f">
+
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/de8a666a-a504-4391-8250-01154ffafb59">
+
+
+
+
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/556e2a16-edf5-4d48-8b87-22aeb36661f1">
 
 
@@ -48,12 +55,6 @@ Notebooks
 To run the project, follow these steps:
 
 Setup ADLS Gen2: Ensure that the landing folder and corresponding bronze, silver, and gold folders are set up in your ADLS Gen2 storage account.
-<img width="909" alt="image" src="https://github.com/user-attachments/assets/bf1ca609-ed34-4483-9c28-36eca792f47f">
-
-
-<img width="897" alt="image" src="https://github.com/user-attachments/assets/de8a666a-a504-4391-8250-01154ffafb59">
-
-
 
 Upload CSV Files: Place the Raw_Roads and Road_Traffic CSV files into the landing folder in ADLS Gen2. This will automatically trigger the workflow.
 
